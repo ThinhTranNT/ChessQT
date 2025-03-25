@@ -1,0 +1,255 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Lobby</class>
+ <widget class="QMainWindow" name="Lobby">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>600</width>
+    <height>449</height>
+   </rect>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>600</width>
+    <height>449</height>
+   </size>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>600</width>
+    <height>449</height>
+   </size>
+  </property>
+  <property name="cursor">
+   <cursorShape>PointingHandCursor</cursorShape>
+  </property>
+  <property name="windowTitle">
+   <string>Chess</string>
+  </property>
+  <property name="windowIcon">
+   <iconset resource="Materials.qrc">
+    <normaloff>:/Materials/BKnight.png</normaloff>:/Materials/BKnight.png</iconset>
+  </property>
+  <property name="autoFillBackground">
+   <bool>false</bool>
+  </property>
+  <property name="styleSheet">
+   <string notr="true"/>
+  </property>
+  <property name="windowFilePath">
+   <string/>
+  </property>
+  <widget class="QWidget" name="widget">
+   <property name="minimumSize">
+    <size>
+     <width>600</width>
+     <height>449</height>
+    </size>
+   </property>
+   <property name="maximumSize">
+    <size>
+     <width>600</width>
+     <height>449</height>
+    </size>
+   </property>
+   <property name="styleSheet">
+    <string notr="true"/>
+   </property>
+   <widget class="QPushButton" name="playButton">
+    <property name="geometry">
+     <rect>
+      <x>190</x>
+      <y>115</y>
+      <width>221</width>
+      <height>106</height>
+     </rect>
+    </property>
+    <property name="autoFillBackground">
+     <bool>false</bool>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">#playButton
+{
+	background-color: transparent;
+	border-image: url(:/Materials/PlayButton.png);
+	background: none;
+	border: none;
+	background-repeat: none;
+}
+#playButton:hover
+{
+ 	border-image: url(:/Materials/HoverPlayButton.png);
+}
+#playButton:pressed
+{
+   border-image: url(:/Materials/ClickedPlayButton.png);
+}</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="speaker">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>10</y>
+      <width>46</width>
+      <height>42</height>
+     </rect>
+    </property>
+    <property name="mouseTracking">
+     <bool>true</bool>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QCheckBox::indicator:unchecked 
+{
+	background: none;
+	border: none;
+	background-repeat: none;
+	background-color: transparent;
+    image: url(:/Materials/UnmuteSpeaker.png)
+}
+QCheckBox::indicator:unchecked:hover 
+{
+   	background: none;
+	border: none;
+	background-repeat: none;
+	background-color: transparent;
+    image: url(:/Materials/HoverUnmuteSpeaker.png)
+}
+QCheckBox::indicator:checked {
+	background: none;
+	border: none;
+	background-repeat: none;
+	background-color: transparent;
+    image: url(:/Materials/MuteSpeaker.png)
+}
+
+QCheckBox::indicator:checked:hover
+{
+    background: none;
+	border: none;
+	background-repeat: none;
+	background-color: transparent;
+    image: url(:/Materials/HoverMuteSpeaker.png)
+}
+
+
+
+</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="tristate">
+     <bool>false</bool>
+    </property>
+   </widget>
+   <widget class="QLabel" name="background">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>600</width>
+      <height>449</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-image: url(:/Materials/Background.png)</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="continueButton">
+    <property name="enabled">
+     <bool>true</bool>
+    </property>
+    <property name="geometry">
+     <rect>
+      <x>190</x>
+      <y>240</y>
+      <width>221</width>
+      <height>106</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">#continueButton
+{
+	background-color: transparent;
+	border-image: url(:/Materials/ContinueButton.png);
+	background: none;
+	border: none;
+	background-repeat: none;
+}
+#continueButton:hover
+{
+ 	border-image: url(:/Materials/HoverContinueButton.png);
+}
+#continueButton:pressed
+{
+   border-image: url(:/Materials/ClickedContinueButton.png);
+}</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="autoDefault">
+     <bool>false</bool>
+    </property>
+    <property name="default">
+     <bool>false</bool>
+    </property>
+    <property name="flat">
+     <bool>false</bool>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="newGameButton">
+    <property name="enabled">
+     <bool>true</bool>
+    </property>
+    <property name="geometry">
+     <rect>
+      <x>190</x>
+      <y>90</y>
+      <width>221</width>
+      <height>106</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">#newGameButton
+{
+	background-color: transparent;
+	border-image: url(:/Materials/NewGameButton.png);
+	background: none;
+	border: none;
+	background-repeat: none;
+}
+#newGameButton:hover
+{
+ 	border-image: url(:/Materials/HoverNewGameButton.png);
+}
+#newGameButton:pressed
+{
+   border-image: url(:/Materials/ClickedNewGameButton.png);
+}</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <zorder>background</zorder>
+   <zorder>playButton</zorder>
+   <zorder>speaker</zorder>
+   <zorder>continueButton</zorder>
+   <zorder>newGameButton</zorder>
+  </widget>
+ </widget>
+ <resources>
+  <include location="Materials.qrc"/>
+ </resources>
+ <connections/>
+</ui>

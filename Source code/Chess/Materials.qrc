@@ -1,0 +1,57 @@
+<RCC>
+    <qresource prefix="/Materials"/>
+    <qresource prefix="/">
+        <file>Materials/Board.png</file>
+        <file>Materials/BBishop.png</file>
+        <file>Materials/BKing.png</file>
+        <file>Materials/BKnight.png</file>
+        <file>Materials/BPawn.png</file>
+        <file>Materials/BQueen.png</file>
+        <file>Materials/BRook.png</file>
+        <file>Materials/WBishop.png</file>
+        <file>Materials/WKing.png</file>
+        <file>Materials/WKnight.png</file>
+        <file>Materials/WPawn.png</file>
+        <file>Materials/WQueen.png</file>
+        <file>Materials/WRook.png</file>
+        <file>Materials/Dot.png</file>
+        <file>Materials/BlackTurn.png</file>
+        <file>Materials/WhiteTurn.png</file>
+        <file>Materials/RedoButton.png</file>
+        <file>Materials/ClickedRedoButton.png</file>
+        <file>Materials/ClickedUndoButton.png</file>
+        <file>Materials/UndoButton.png</file>
+        <file>Materials/Background.png</file>
+        <file>Materials/PlayButton.png</file>
+        <file>Materials/ClickedPlayButton.png</file>
+        <file>Materials/MuteSpeaker.png</file>
+        <file>Materials/UnmuteSpeaker.png</file>
+        <file>Materials/HoverMuteSpeaker.png</file>
+        <file>Materials/HoverUnmuteSpeaker.png</file>
+        <file>Soundtrack/BackgroundMusic.mp3</file>
+        <file>Materials/HoverPlayButton.png</file>
+        <file>Materials/BackgroundGame.png</file>
+        <file>Materials/ActiveBlackTurn.png</file>
+        <file>Materials/ActiveWhiteTurn.png</file>
+        <file>Materials/SelectedBBishop.png</file>
+        <file>Materials/SelectedBKnight.png</file>
+        <file>Materials/SelectedBQueen.png</file>
+        <file>Materials/SelectedBRook.png</file>
+        <file>Materials/ClickedContinueButton.png</file>
+        <file>Materials/ClickedNewGameButton.png</file>
+        <file>Materials/ContinueButton.png</file>
+        <file>Materials/HoverContinueButton.png</file>
+        <file>Materials/HoverNewGameButton.png</file>
+        <file>Materials/NewGameButton.png</file>
+        <file>Materials/BlackWin.png</file>
+        <file>Materials/Draw.png</file>
+        <file>Materials/WhiteWin.png</file>
+        <file>Materials/ExitButton.png</file>
+        <file>Materials/ExitButtonClicked.png</file>
+        <file>Materials/HoverExitButton.png</file>
+        <file>Materials/HoverPlayIcon.png</file>
+        <file>Materials/PlayIcon.png</file>
+        <file>Materials/PlayIconClicked.png</file>
+        <file>Soundtrack/PieceMoveSoundEffect.mp3</file>
+    </qresource>
+</RCC>

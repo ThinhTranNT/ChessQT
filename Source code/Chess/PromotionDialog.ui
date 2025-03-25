@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>PromotionDialog</class>
+ <widget class="QDialog" name="PromotionDialog">
+  <property name="enabled">
+   <bool>true</bool>
+  </property>
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>390</width>
+    <height>100</height>
+   </rect>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>390</width>
+    <height>100</height>
+   </size>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>390</width>
+    <height>100</height>
+   </size>
+  </property>
+  <property name="cursor">
+   <cursorShape>PointingHandCursor</cursorShape>
+  </property>
+  <property name="windowTitle">
+   <string>Promotion</string>
+  </property>
+  <property name="windowIcon">
+   <iconset resource="Materials.qrc">
+    <normaloff>:/Materials/BKnight.png</normaloff>:/Materials/BKnight.png</iconset>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: rgb(49, 49, 49)</string>
+  </property>
+  <widget class="QPushButton" name="queenButton">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>25</y>
+     <width>60</width>
+     <height>50</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">#queenButton
+{
+	background-color: transparent;
+	
+	border: none;
+	background-repeat: none;
+	background-image: url(:/Materials/BQueen.png);
+}
+#queenButton:hover
+{
+	background-image: url(:/Materials/SelectedBQueen.png)
+}</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>60</width>
+     <height>50</height>
+    </size>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="rookButton">
+   <property name="geometry">
+    <rect>
+     <x>120</x>
+     <y>25</y>
+     <width>60</width>
+     <height>50</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">#rookButton
+{
+	background-color: transparent;
+	
+	border: none;
+	background-repeat: none;
+	background-image: url(:/Materials/BRook.png);
+}
+#rookButton:hover
+{
+	background-image: url(:/Materials/SelectedBRook.png);
+}</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="bishopButton">
+   <property name="geometry">
+    <rect>
+     <x>210</x>
+     <y>25</y>
+     <width>60</width>
+     <height>50</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">#bishopButton
+{
+	background-color: transparent;
+	
+	border: none;
+	background-repeat: none;
+	background-image: url(:/Materials/BBishop.png);
+}
+#bishopButton:hover
+{
+	background-image: url(:/Materials/SelectedBBishop.png);
+}</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="knightButton">
+   <property name="geometry">
+    <rect>
+     <x>300</x>
+     <y>25</y>
+     <width>60</width>
+     <height>50</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">#knightButton
+{
+	background-color: transparent;
+	
+	border: none;
+	background-repeat: none;
+	background-image: url(:/Materials/BKnight.png);
+}
+#knightButton:hover
+{
+	background-image:  url(:/Materials/SelectedBKnight.png);
+}</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>15</y>
+     <width>350</width>
+     <height>70</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(84, 84, 84)</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <zorder>label</zorder>
+  <zorder>queenButton</zorder>
+  <zorder>rookButton</zorder>
+  <zorder>bishopButton</zorder>
+  <zorder>knightButton</zorder>
+ </widget>
+ <resources>
+  <include location="Materials.qrc"/>
+ </resources>
+ <connections/>
+</ui>
